@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    min-width: 1024px;
+}
+.wrapper {
+    width: 960px; /* Set a fixed width */
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    padding-top: 10px; /* Add space for the fixed nav-bar */
+}
+
+.nav-bar {
+    position: fixed; /* Fix the nav bar at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Set the height of the nav bar */
+    background-color: #000; /* Add a background color */
+    color: white; /* Text color */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+    padding-right: 30px; /* Right-side padding */
+    z-index: 1000; /* Ensure the nav-bar stays on top of other elements */
+}
+
+.navlinks {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    margin-left: 20px; /* Space between nav items */
+    font-size: 18px;
+}
+.border {
+    border: 5px solid transparent;
+    padding: 10px;
+    border-radius: 7px;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+#home{
+    gap: 10px;
+}
+.nav-links{
+    text-decoration: none;
+    color: white;
+}
+.header {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: rgba(236, 127, 3, 0.897);
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.body {
+    display: flex;
+    align-items: center; /* Vertically centers the text with the image */
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.profile-photo{
+    margin-right: 20px; 
+}
+img{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+.content {
+    font-size: 24px;
+    color: white;
+    text-align: left;
+    line-height: 1.8;
+    font-family:'cursive';
+}
+.social-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    gap: 40px;
+}

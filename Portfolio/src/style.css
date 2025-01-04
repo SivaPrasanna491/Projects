@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/images/3334896.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif; /* You can set a default font for consistency */
+}
+.wrapper{
+    width: 100%; /* Set a fixed width */
+    margin: 0 auto;
+}
+.nav-bar {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    font-size: 25px;
+    /* gap: 20px; */
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    /* background-color:#131921 ; */
+}
+.nav-links{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#profile-image {
+    padding-right: 10px;
+}
+.border {
+    border: 5px solid transparent;
+    padding: 10px;
+    border-radius: 7px;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+    padding-right: 50px;
+    position: relative;
+}
+.cartoon-image{
+    position: fixed;
+    text-align: right;
+    margin-right: 200px;
+    right: 0;
+    width: 350px;
+    height: auto;
+    border: none;
+    outline: none;
+    object-fit: cover;
+    object-position: center center;
+    background-image: none;
+    box-shadow: none;
+    background: transparent;
+}
+.text {
+    color: white;
+    position: fixed;
+    text-align: left;
+    left: 0;
+    margin-left: 200px;
+    font-size: 30px;
+    margin-top: 120px;  
+}
+.inner-text{
+    color: white;
+    position: fixed;
+    text-align: left;
+    left:0;
+    margin-left: 210px;
+    font-size: 35px;
+    margin-top: 200px;
+}
+#designation{
+    line-height: 3.5;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between; /* Space between social links and copyright */
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 40px;
+    gap: 20px;
+    width: 100%; /* Ensure the footer spans the full width */
+    background-color: rgba(0, 0, 0, 0.6); /* Optional background color */
+}
+
+.social-media {
+    display: flex;
+    gap: 20px; /* Keep space between social media links */
+    font-size: 40px;
+}
+
+.copyright {
+    color: white;
+    font-size: 15px;
+    margin-left: auto; /* Push copyright to the extreme right */
+    padding-right: 30px;
+}
+
+/* Nav-bar Styling */
